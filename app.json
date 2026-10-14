@@ -32,6 +32,15 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
+      ],
+      "@react-native-community/datetimepicker",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Choose a photo to practice the photo form input.",
+          "cameraPermission": "Take a photo to practice the camera form input.",
+          "microphonePermission": false
+        }
       ]
     ],
     "experiments": {
